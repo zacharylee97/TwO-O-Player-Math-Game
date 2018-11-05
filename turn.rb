@@ -14,7 +14,7 @@ class Turn
   end
   # Check if input from player matches correct answer to question
   def check(input)
-    if (input.to_i == self.answer)
+    if input.to_i == self.answer
       puts "#{self.player.name}: YES! You are correct."
     else
       puts "#{self.player.name}: Seriously? No!"
